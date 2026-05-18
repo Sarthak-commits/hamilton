@@ -1,10 +1,10 @@
-ibis-framework
-langchain_core
+ibis-framework; python_version < "3.14"
+langchain_core; python_version < "3.14"
 numpy
 polars
 pyarrow
-pyarrow_hotfix  # required for ibis tests
+pyarrow_hotfix; python_version < "3.14"
 pydantic
-pyspark
+pyspark; python_version < "3.14"
 pytest
 ray; python_version < "3.14"
